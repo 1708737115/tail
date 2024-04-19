@@ -12,7 +12,7 @@ import (
 
 	"github.com/hpcloud/tail/util"
 
-	"github.com/fsnotify/fsnotify v1.7.0"
+	"github.com/fsnotify/fsnotify"
 )
 
 type InotifyTracker struct {
